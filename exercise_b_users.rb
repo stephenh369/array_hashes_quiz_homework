@@ -68,9 +68,12 @@ users = {
 
 # 4. Get the species of Avril's pet Monty
 
-p users["Avril"][:pets][0][:name]
+# p users["Avril"][:pets][0][:name]
 
 # 5. Get the smallest of Erik's lottery numbers
+
+p users["Erik"][:lottery_numbers].min()
+
 # 6. Return an array of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
